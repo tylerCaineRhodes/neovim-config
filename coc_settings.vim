@@ -8,6 +8,7 @@ let g:coc_global_extensions = [
       \ 'coc-pairs',
       \ 'coc-tsserver', 
       \ 'coc-snippets', 
+      \ 'coc-solargraph',
       \ 'coc-eslint']
 " " To go back to previous state use Ctrl+O
 nmap gd <Plug>(coc-definition)

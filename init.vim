@@ -13,6 +13,16 @@ call plug#begin('~/.vim/plugged')
   Plug 'altercation/vim-colors-solarized'
   Plug 'jremmen/vim-ripgrep'
   Plug 'sjl/vitality.vim'
+  Plug 'chrisbra/csv.vim'
+  Plug 'mbbill/undotree'
+  Plug 'jgdavey/vim-blockle'
+  Plug 'tpope/vim-endwise'
+  Plug 'pangloss/vim-javascript'
+  Plug 'MaxMEllon/vim-jsx-pretty'
+  Plug 'tpope/vim-rails'
+  Plug 'tpope/vim-repeat'
+  Plug 'vim-ruby/vim-ruby'
+  " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 source ~/.config/nvim/nvim_settings.vim
