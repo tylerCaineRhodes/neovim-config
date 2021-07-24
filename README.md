@@ -1,6 +1,8 @@
 # neovim-config
 Neovim IDE setup
 
+These Plugins are installed and managed with [vim-plug](https://github.com/junegunn/vim-plug). Reference the official documentation in order to add and update additional plugins. This repo has already included it in the autoload directory.
+
 Clone the repo and run the install script:
 
     git clone https://github.com/tylerCaineRhodes/nevim-config.git ~/.config/nvim
