@@ -2,6 +2,12 @@ set encoding=UTF-8
 
 let mapleader = "," " set leader to = , for remappings
 
+" make space turn off highlighter
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
+
+"show command in status bar
+set showcmd
+
 " Search
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
