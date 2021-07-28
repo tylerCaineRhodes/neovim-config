@@ -5,7 +5,7 @@ These Plugins are installed and managed with [vim-plug](https://github.com/juneg
 
 Clone the repo and run the install script:
 
-    git clone https://github.com/tylerCaineRhodes/nevim-config.git ~/.config/nvim
+    git clone https://github.com/tylerCaineRhodes/neovim-config.git ~/.config/nvim
     
 # Included plugins
 
