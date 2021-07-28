@@ -1,6 +1,14 @@
 # neovim-config
 Neovim IDE setup
 
+Make sure you have neovim installed with:
+
+    brew install neovim.
+    
+Then to install the plugins, run:
+
+    nvim -c PlugInstall
+
 These Plugins are installed and managed with [vim-plug](https://github.com/junegunn/vim-plug). Reference the official documentation in order to add and update additional plugins. This repo has already included it in the autoload directory.
 
 Clone the repo and run the install script:
