@@ -16,13 +16,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'chrisbra/csv.vim'
   Plug 'mbbill/undotree'
   Plug 'jgdavey/vim-blockle'
-  Plug 'tpope/vim-endwise'
   Plug 'pangloss/vim-javascript'
   Plug 'MaxMEllon/vim-jsx-pretty'
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-repeat'
   Plug 'vim-ruby/vim-ruby'
-  " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 source ~/.config/nvim/nvim_settings.vim
@@ -31,6 +30,6 @@ source ~/.config/nvim/ale_settings.vim
 source ~/.config/nvim/nerdcommenter_settings.vim
 source ~/.config/nvim/solarized_settings.vim
 source ~/.config/nvim/fzf_settings.vim
-" source ~/.config/nvim/coc_settings.vim
+source ~/.config/nvim/coc_settings.vim
 
 
